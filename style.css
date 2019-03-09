@@ -1,10 +1,10 @@
 body{
-    	font-family: monospace;
-    	font-size: 18px;
+    font-family: monospace;
+    font-size: 18px;
 }
 
 ul{
-	margin-left:60px;
+	margin-left:100px;
 }
 
 #name{
@@ -17,27 +17,27 @@ div{
 }
 
 h1{
-	margin-left:60px;
+	margin-left:100px;
 }
 
 h2{
-	margin-left:60px;
+	margin-left:100px;
 }
 
 p{
-	margin-left:60px;
+	margin-left:100px;
 }
 
 #a{
- 	text-align: center;
+    text-align: center;
 }
 
 img{
-  	position:absolute;
-   	left:360px;
-    	width:120px;
+    position:absolute;
+    left:430px;
+    width:120px;
 }
 
 .Resume{
-	margin-left:60px;
+	margin-left:100px;
 }
