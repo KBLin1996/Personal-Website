@@ -1,0 +1,39 @@
+body{
+    font-family: monospace;
+    font-size: 16px;
+}
+
+ul{
+	margin-left:50px;
+}
+
+#name{
+	display:inline;
+}
+
+div{
+	font-family: Microsoft JhengHei;
+	display:inline;
+}
+
+h1{
+	margin-left:50px;
+}
+
+h2{
+	margin-left:50px;
+}
+
+p{
+	margin-left:50px;
+}
+
+#a{
+  text-align: center;
+}
+
+img{
+    position:absolute;
+    left:360px;
+    width:120px;
+}
