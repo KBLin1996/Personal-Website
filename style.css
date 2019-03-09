@@ -1,6 +1,7 @@
 body{
-    	font-family: monospace;
+    	font-family: Arial, Microsoft JhengHei;
    	font-size: 18px;
+	background-image: url(background.jpg);
 }
 
 ul{
@@ -12,7 +13,6 @@ ul{
 }
 
 div{
-	font-family: Microsoft JhengHei;
 	display:inline;
 }
 
@@ -28,6 +28,10 @@ p{
 	margin-left:100px;
 }
 
+#Chinese{
+	margin-left:100px;
+}
+
 #a{
     	text-align: center;
 }
@@ -35,7 +39,7 @@ p{
 img{
     	position:absolute;
     	left:430px;
-    	width:120px;
+    	width:140px;
 }
 
 .Resume{
