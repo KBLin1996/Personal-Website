@@ -1,47 +1,149 @@
-body{
-    	font-family: Arial, Microsoft JhengHei;
-   	font-size: 18px;
-	background-image: url(background.jpg);
+*{
+	margin: 0;
+	padding: 0;
 }
 
-ul{
-	margin-left:100px;
+header{
+	height: 500px;
+	background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(../images/header.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+	background-attachment: fixed;
 }
 
-#name{
-	display:inline;
+header h1{
+	margin: 0 auto;
+	max-width: 780px;
+	text-align: center;
+	font-family: Roboto Slab, serif;
+	font-size: 36px;
+	font-weight: normal;
+	color: white;
+	position: relative;
+	top: 40%;
 }
 
-div{
-	display:inline;
+title {
+	max-width: 780px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
-h1{
-	margin-left:100px;
+body {
+	color: rgb(51, 51, 51);
+	font-family: Roboto Slab, serif;
 }
 
-h2{
-	margin-left:100px;
+#profile{
+	margin-top: -50px;
+	margin-bottom: 70px;
+	text-align: center;
+	font-family: Source Sans Pro, sans-serif;
+	font-size: 18px;
+	line-height: 24px;
 }
 
-p{
-	margin-left:100px;
+#author_image{
+	width: 100px;
+	border: 1px solid white;
+	border-radius: 100%
 }
 
-#Chinese{
-	margin-left:100px;
+#author{
+	font-family: Source Sans Pro, sans-serif;
+	font-weight:bold;
+	font-size: 18px;
+	line-height: 24px;
+	color: rgb(51, 51, 51);
+	max-width: 600px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
 }
 
-#a{
-    	text-align: center;
+#date{
+	font-family: Source Sans Pro, sans-serif;
+	font-size: 18px;
+	font-style: italic;
 }
 
-img{
-    	position:absolute;
-    	left:430px;
-    	width:140px;
+#line{
+	font-style: italic;
+	border-bottom: 2px solid #e6e6e6;
+	padding-bottom: 10px;
 }
 
-.Resume{
-	margin-left:100px;
+a{
+	color: #42b4d6;
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+section{
+	margin: 60px auto;
+	display: flex;
+	justify-content: center;
+}
+
+section span{
+	margin-right: 40px;
+	margin-left: -40px;
+	font-family: Roboto Slab, serif;
+	font-size: 36px;
+	font-weight: normal;
+	color: rgba(0, 0, 0, 0.25);
+}
+
+section div{
+	width: 66.67%;
+	font-size: 21px;
+	font-family: Source Sans Pro, sans-serif, Microsoft JhengHei;
+}
+
+section h1{
+	font-family: Roboto Slab, serif;
+	font-size: 36px;
+	font-weight: bold;
+}
+
+#contact{
+	margin-top: 50px;
+	margin-bottom: 12px;
+}
+
+.p-label{
+	margin-left: 2px;
+	font-family: Roboto Slab, serif;
+	font-size: 16px;
+	color: black;
+}
+
+.u-email{
+	margin-left: 2px;
+}
+
+li{
+	margin-bottom: 5px;
+}
+
+section h3{
+	margin-bottom: 20px;
+	font-family: Roboto Slab, serif;
+	font-size: 18px;
+	font-weight: normal;
+}
+
+section p{
+	margin-bottom: 20px;
+	font-family: Source Sans Pro, sans-serif;
+	font-size: 21px;
+	line-height: 32px;
+}
+
+section img{
+	width: 100%;
 }
