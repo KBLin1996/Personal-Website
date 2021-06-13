@@ -17,11 +17,12 @@ header h1{
 	max-width: 780px;
 	text-align: center;
 	font-family: Roboto Slab, serif;
-	font-size: 36px;
+	font-size: 41px;
 	font-weight: normal;
+	line-height: 90px;
 	color: white;
 	position: relative;
-	top: 40%;
+	top: 30%;
 }
 
 title {
